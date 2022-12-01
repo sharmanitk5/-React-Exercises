@@ -43,7 +43,7 @@ margin: 10px;
 
 }
 .bottom{
-  border-collapse: none;
+ 
  position: absolute;
  left: 13px;
  bottom: 0px;
@@ -53,18 +53,125 @@ margin: 10px;
  
 }
 .mic{
-  border-collapse: none;
+ 
    color: red;
     left: 0px;
-position: absolute;
- 
- bottom: 0px;
- font-size: .8rem;
+  position: absolute;
+   bottom: 0px;
+   font-size: .8rem;
  
     
 
 
 }
-.des{
+.inlin{
   display: inline-block;
+}
+.purple{
+  color:purple;
+}
+.text-grey{
+  color: grey;
+}
+.product{
+  border: 1px solid;
+  padding: 5px;
+  margin: 5px;
+}
+.article{
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+}
+body{
+  background-color:lightgrey
+
+}
+.spa{
+  margin: .2rem;
+}
+.auth{
+  color: blue;
+  margin: .2rem;
+}
+.ta{
+  margin: .2rem;
+}
+.add{
+  
+ background-color: white;
+margin-left: 20vw;
+  padding: 10px;
+  
+  margin-top: 10px;
+ position: relative;
+  margin-right: 20px;
+  box-shadow: red;
+ 
+  
+  
+}
+.tog{
+position: absolute;
+ left: 600px;
+  height:30px;
+  width: 30px;
+  top:20px;
+  
+  border-radius: 15px;
+  color: red;
+  border: none;
+  margin-left: 10px;
+  
+  
+}
+
+
+
+.head{
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+.show{
+  height: 100px;
+  overflow: hidden;
+  transition: 1s;
+  }
+.hide{
+height:0;
+overflow: hidden;
+transition: 1s;
+}
+.container{
+  background-color: white;
+  margin: 10px;
+  border: 1px solid black;
+  display:inline-block;
+  padding: 10px;
+  position: relative;
+  
+}
+.amt{
+  color: orange;
+  margin-left: 80px;
+}
+.mdl{
+  margin-left: 20px;
+}
+.top{
+  background-color: green;
+   display: inline-block;
+  color: white;
+  position: absolute;
+top:0px;
+left: 0px;
+padding: 5px;
+padding-top: 0px;;
+line-height: 20px;
+height: 100px;
+
+}
+.change{
+  text-align: left;
 }
