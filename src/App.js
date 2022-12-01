@@ -14,7 +14,7 @@ import { useState } from "react";
 import FormDemo from "./FormDemo";
  function App() {
  
-// let informations=[{
+let informations=[{
 //   model:"Xiaomi Redmi k40",
 //   amount:"Rs.22,490",
 //   percentage:"91%"
